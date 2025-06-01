@@ -1,0 +1,4 @@
+[project]
+name = "Simple django project"
+slug = "simple_django_project"
+description = "A simple Django project template"
