@@ -1,5 +1,5 @@
 """
-WSGI config for {{ petor.project_name }} project.
+WSGI config for {{ petor.project.name }} project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
