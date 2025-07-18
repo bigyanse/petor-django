@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'collectfasta',
     'django.contrib.staticfiles',
+    'core.apps.CoreConfig'
 ]
 
 MIDDLEWARE = [
