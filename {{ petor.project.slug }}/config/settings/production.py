@@ -2,7 +2,12 @@ from .base import *
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'tickt.co']
+ALLOWED_HOSTS = []
+
+CORS_ALLOWD_ORIGINS = []
+CORS_ALLOWD_METHODS = ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS']
+CORS_ALLOWD_HEADERS = ['*']
+CORS_ALLOW_CREDENTIALS = True
 
 # AWS S3 setup
 # https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html

@@ -32,7 +32,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -43,10 +42,16 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'collectfasta',
     'django.contrib.staticfiles',
+
+    # external
+    'corsheaders',
+
+    # custom
     'core.apps.CoreConfig'
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
