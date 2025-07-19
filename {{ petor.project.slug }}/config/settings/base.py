@@ -45,6 +45,8 @@ INSTALLED_APPS = [
 
     # external
     'corsheaders',
+    'rest_framework',
+    'storages',
 
     # custom
     'core.apps.CoreConfig'

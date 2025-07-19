@@ -14,3 +14,14 @@ dependencies = [
   "pillow>=11.3.0",
   "psycopg2>=2.9.10",
 ]
+
+[dependency-groups]
+dev = [
+    "django-stubs>=5.2.2",
+    "djangorestframework-stubs>=3.16.1",
+]
+
+[tool.basedpyright]
+reportUnusedExpression = false
+reportUndefinedVariable = false
+typeCheckingMode = "off"
